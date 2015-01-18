@@ -31,7 +31,7 @@ def what_to_do(in_a_row, heads_wins, tails_wins):
 
 	print("Flips: {}".format(flips))
 
-if __name__ == '__main__':
+def main():
 	print("How many flips in a row for a decision?")
 	num_flips = int(input())
 	print("What are you going to do if heads wins?")
@@ -40,5 +40,8 @@ if __name__ == '__main__':
 	tails_wins = input()
 	print("Determining decision, please wait.")
 	what_to_do(num_flips, heads_wins, tails_wins)
+
+if __name__ == '__main__':
+	main()
 
 
